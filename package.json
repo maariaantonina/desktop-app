@@ -1,12 +1,12 @@
 {
   "name": "desktop-app",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main.js",
   "repository": "git@github.com:maariaantonina/desktop-app.git",
   "author": "Maria Kasińska <mariakasinska17@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "electron ./app/index.html"
+    "start": "electron main.js"
   },
   "dependencies": {
     "electron": "5.0.6"
